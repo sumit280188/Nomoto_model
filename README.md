@@ -11,7 +11,7 @@ This combination of the Nomoto model and SBPL is used for the creation of
 motion primitives with the A* algorithm for finding the optimal paths for autonomous ships.
 
 
-For simulating the Nomoto model ODEint was used which is included in the boost library.
+For simulating the Nomoto model ODEint was used which is included in the BOOST library.
 integrate_adaptive is used if the observer is called at each timestep. Syntax:
 integrate_adaptive(stepper , system , x0 , t0 , t1 , dt , observer)
 
