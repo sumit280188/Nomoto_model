@@ -24,3 +24,8 @@ mkdir -p build
 Create the build files with cmake and build the code
 cmake -DCMAKE_BUILD_TYPE=Releases -S . -B build && cmake --build build
 
+
+#  Running the code
+goto cd /home/$USER/Nomoto_model
+goto cd build
+./main 
