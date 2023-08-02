@@ -20,8 +20,8 @@ The differential equation and the observer are passed to the odeint integrator f
 # Cmake is used to create the build files.
 
 Clone the code from https://github.com/sumit280188/Nomoto_model.git
+
 Create a build directory in the new git directory
-```
 cd /home/$USER/Nomoto_model 
 mkdir -p build 
 
