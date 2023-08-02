@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sumit/Nomoto_v2.0/Nomo_obs.hpp
+iostream
+-
+vector
+-
+Nomo_ode.hpp
+/home/sumit/Nomoto_v2.0/Nomo_ode.hpp
+
+/home/sumit/Nomoto_v2.0/Nomo_ode.hpp
+iostream
+-
+vector
+-
+boost/numeric/odeint.hpp
+-
+
+/home/sumit/Nomoto_v2.0/Nomo_sim.hpp
+iostream
+-
+vector
+-
+
+/home/sumit/Nomoto_v2.0/main.cpp
+Nomo_ode.hpp
+/home/sumit/Nomoto_v2.0/Nomo_ode.hpp
+Nomo_obs.hpp
+/home/sumit/Nomoto_v2.0/Nomo_obs.hpp
+Nomo_sim.hpp
+/home/sumit/Nomoto_v2.0/Nomo_sim.hpp
+boost/math/interpolators/cubic_b_spline.hpp
+-
+boost/math/differentiation/finite_difference.hpp
+-
+cmath
+-
+

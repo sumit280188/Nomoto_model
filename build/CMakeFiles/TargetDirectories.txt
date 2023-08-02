@@ -1,0 +1,3 @@
+/home/sumit/Nomoto_v2.0/build/CMakeFiles/rebuild_cache.dir
+/home/sumit/Nomoto_v2.0/build/CMakeFiles/edit_cache.dir
+/home/sumit/Nomoto_v2.0/build/CMakeFiles/main.dir

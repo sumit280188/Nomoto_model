@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/sumit/Nomoto_v2.0/build",
+  "command": "/usr/bin/c++  -DYAML_CPP_STATIC_DEFINE -I/home/sumit/Nomoto_v2.0/yaml-cpp/include  -g   -o CMakeFiles/main.dir/Nomo_sim.cpp.o -c /home/sumit/Nomoto_v2.0/Nomo_sim.cpp",
+  "file": "/home/sumit/Nomoto_v2.0/Nomo_sim.cpp"
+},
+{
+  "directory": "/home/sumit/Nomoto_v2.0/build",
+  "command": "/usr/bin/c++  -DYAML_CPP_STATIC_DEFINE -I/home/sumit/Nomoto_v2.0/yaml-cpp/include  -g   -o CMakeFiles/main.dir/main.cpp.o -c /home/sumit/Nomoto_v2.0/main.cpp",
+  "file": "/home/sumit/Nomoto_v2.0/main.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/main.dir/Nomo_sim.cpp.o CMakeFiles/main.dir/main.cpp.o  -o main  /usr/local/lib/libyaml-cpp.a 
