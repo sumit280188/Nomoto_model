@@ -17,24 +17,31 @@ integrate_adaptive(stepper , system , x0 , t0 , t1 , dt , observer)
 
 The differential equation and the observer are passed to the odeint integrator function.
 
-# Cmake is used to create the build files.
+# Cmake is used to create the build files  
 
-Clone the code from https://github.com/sumit280188/Nomoto_model.git
+Clone the code from https://github.com/sumit280188/Nomoto_model.git  
 
-Create a build directory in the new git directory
-cd /home/$USER/Nomoto_model 
-mkdir -p build 
+Create a build directory in the new git directory  
+cd /home/$USER/Nomoto_model   
+mkdir -p build    
 
-Create the build files with cmake and build the code
-'''
-cmake -DCMAKE_BUILD_TYPE=Releases -S . -B build && cmake --build build
 
-Running the code:
-'''
-goto cd /home/$USER/Nomoto_model
-'''
-goto cd build
-'''
-./main 
+Create the build files with cmake and build the code  
+
+
+cmake -DCMAKE_BUILD_TYPE=Releases -S . -B build && cmake --build build  
+
+
+Running the code:  
+
+
+goto cd /home/$USER/Nomoto_model  
+
+
+goto cd build  
+
+
+./main    
+
 
 For more details refer - K.Nomoto 1956 "On the steering qualities of ships"
